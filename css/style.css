@@ -331,19 +331,21 @@ dialog :focus-visible { outline-color: var(--weiss); }
   .kachel:hover img { transform: none; }
 }
 
-/* Querformat ab Laptop-Breite: Dialog fast bildschirmfüllend, Video groß links, Texte rechts daneben */
+/* Querformat ab Tablet/Laptop-Breite: Dialog fast bildschirmfüllend, Video groß links, Texte rechts daneben.
+   Bewusst Flexbox statt Grid und Padding-Trick statt aspect-ratio: Safari/iPadOS ließ die Bühne im Grid auf Höhe 0 kollabieren. */
 @media (min-width: 60rem) and (min-aspect-ratio: 4/3) {
-  dialog { width: 94vw; max-height: 92vh; }
-  .player-innen {
-    --text: clamp(15rem, 19vw, 19rem);
-    display: grid;
-    /* Video so breit wie Breite UND Höhe erlauben (16:9), Rest für den Text */
-    grid-template-columns: min(calc((92vh - 8rem) * 16 / 9), calc(100% - var(--text) - 1.5rem)) minmax(0, 1fr);
-    grid-template-areas: "kopf kopf" "buehne info"; column-gap: 1.5rem; align-items: stretch;
+  dialog { width: 94vw; max-height: 92vh; max-height: 92dvh; overflow: auto; }
+  .player-innen { --text: clamp(15rem, 19vw, 19rem); display: flex; flex-wrap: wrap; column-gap: 1.5rem; align-items: stretch; }
+  .player-kopf { flex: 0 0 100%; }
+  .buehne {
+    aspect-ratio: auto; flex: none;
+    /* so breit wie Breite UND Höhe erlauben (16:9) */
+    width: min(calc((92vh - 8rem) * 16 / 9), calc(100% - var(--text) - 1.5rem));
+    width: min(calc((92dvh - 8rem) * 16 / 9), calc(100% - var(--text) - 1.5rem));
   }
-  .player-kopf { grid-area: kopf; }
-  .buehne { grid-area: buehne; }
-  .player-info { grid-area: info; height: 0; min-height: 100%; overflow-y: auto; padding-right: 0.25rem; }
+  .buehne::before { content: ""; display: block; padding-top: 56.25%; }
+  .player-info { flex: 1 1 0; min-width: 0; position: relative; }
+  .player-scroll { position: absolute; inset: 0; overflow-y: auto; padding-right: 0.25rem; -webkit-overflow-scrolling: touch; }
   .player-info .player-meta { margin-top: 0; }
   .player-text { font-size: 0.95rem; line-height: 1.55; }
 }
