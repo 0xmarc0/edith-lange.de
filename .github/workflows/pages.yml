@@ -27,6 +27,11 @@ jobs:
         run: |
           mkdir _site
           cp -r index.html impressum.html datenschutz.html favicon.svg css js fonts data _site/
+          # Cache-Busting: GitHub Pages lässt Browser Dateien ca. 10 Minuten zwischenspeichern.
+          # Mit der Commit-ID in der Adresse holen alle sofort die neue Fassung.
+          V="${GITHUB_SHA::7}"
+          sed -i -E "s#(css/style\.css|js/seite\.js|js/mediathek\.js)#\1?v=$V#g" _site/*.html
+          sed -i "s#fetch('data/videos\.json'#fetch('data/videos.json?v=$V'#" _site/js/mediathek.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

@@ -128,6 +128,7 @@ body.innen .kopf { position: static; backdrop-filter: none; }
   .menue-js .menue {
     display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.3rem;
     width: 2.75rem; height: 2.75rem; margin: -0.25rem -0.5rem -0.25rem auto; padding: 0;
+    -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; border-radius: 0;
     background: none; border: 0; color: inherit; cursor: pointer; filter: drop-shadow(0 1px 4px rgb(0 0 0 / 0.45));
   }
   body.scroll .menue, body.menue-offen .menue { filter: none; }
