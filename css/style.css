@@ -113,16 +113,47 @@ body.scroll .kopf nav a:hover, body.innen .kopf nav a:hover { color: var(--magen
 body.scroll .kopf :focus-visible, body.innen .kopf :focus-visible { outline-color: var(--tinte); }
 body.innen .kopf { position: static; backdrop-filter: none; }
 
-/* Handy: einzeilige, seitlich scrollbare Navigation, damit die Leiste schmal bleibt */
+/* Handy: Logo links, Menü-Knopf rechts, Navigation klappt als Liste darunter auf.
+   Ohne JavaScript bleibt die einzeilige, seitlich scrollbare Navigation. */
+.menue { display: none; }
 @media (max-width: 39.99rem) {
   html { scroll-padding-top: 3.5rem; }
-  .kopf { padding: 0.7rem 1rem; gap: 0; }
-  .wortmarke, body.scroll .wortmarke, body.innen .wortmarke { display: none; }
+  .kopf { display: flex; justify-content: space-between; align-items: center; padding: 0.55rem 1rem; gap: 0.75rem; }
+  body.scroll .wortmarke, body.innen .wortmarke { display: block; }
   .kopf nav { max-width: 100%; }
   .kopf nav ul { flex-wrap: nowrap; justify-content: flex-start; gap: 1.1rem; overflow-x: auto; scrollbar-width: none; }
   .kopf nav ul::-webkit-scrollbar { display: none; }
   .kopf nav a { font-size: 0.92rem; white-space: nowrap; display: block; padding: 0.15rem 0; }
+
+  .menue-js .menue {
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.3rem;
+    width: 2.75rem; height: 2.75rem; margin: -0.25rem -0.5rem -0.25rem auto; padding: 0;
+    background: none; border: 0; color: inherit; cursor: pointer; filter: drop-shadow(0 1px 4px rgb(0 0 0 / 0.45));
+  }
+  body.scroll .menue, body.menue-offen .menue { filter: none; }
+  .menue span { display: block; width: 1.5rem; height: 1.5px; background: currentColor; transition: transform 0.2s, opacity 0.2s; }
+  body.menue-offen .menue span:nth-child(1) { transform: translateY(calc(0.3rem + 1.5px)) rotate(45deg); }
+  body.menue-offen .menue span:nth-child(2) { opacity: 0; }
+  body.menue-offen .menue span:nth-child(3) { transform: translateY(calc(-0.3rem - 1.5px)) rotate(-45deg); }
+
+  .menue-js .kopf nav { display: none; }
+  .menue-js body.menue-offen .kopf nav, body.menue-offen .kopf nav { display: block; }
+  .menue-js .kopf nav {
+    position: absolute; top: 100%; left: 0; right: 0; max-width: none;
+    background: rgb(231 227 220 / 0.97); color: var(--tinte); text-shadow: none;
+    border-bottom: 1px solid var(--linie); padding: 0.25rem 1.25rem 0.75rem;
+  }
+  .menue-js .kopf nav ul { flex-direction: column; overflow: visible; gap: 0; }
+  .menue-js .kopf nav li + li { border-top: 1px solid var(--linie); }
+  .menue-js .kopf nav a { font-size: 1.5rem; padding: 0.8rem 0; }
 }
+/* Menü offen: Leiste immer sandfarben, auch über dem Header-Video */
+body.menue-offen .kopf {
+  background: rgb(231 227 220 / 0.97); color: var(--tinte); text-shadow: none;
+  border-bottom: 1px solid var(--linie);
+}
+body.menue-offen .wortmarke { display: block; }
+body.menue-offen .kopf :focus-visible { outline-color: var(--tinte); }
 
 /* ---------- Header-Video ---------- */
 .hero {

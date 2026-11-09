@@ -1,6 +1,22 @@
 (() => {
   'use strict';
 
+  // Menü-Knopf (nur Handy-Breite sichtbar): Navigation auf- und zuklappen
+  const knopf = document.querySelector('.menue');
+  const nav = document.getElementById('hauptnav');
+  if (knopf && nav) {
+    document.documentElement.classList.add('menue-js'); // erst jetzt wird die Navigation auf dem Handy eingeklappt
+    const setze = (offen) => {
+      knopf.setAttribute('aria-expanded', String(offen));
+      knopf.setAttribute('aria-label', offen ? 'Menü schließen' : 'Menü');
+      document.body.classList.toggle('menue-offen', offen);
+    };
+    knopf.addEventListener('click', () => setze(knopf.getAttribute('aria-expanded') !== 'true'));
+    nav.addEventListener('click', (e) => { if (e.target.closest('a')) setze(false); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setze(false); });
+    window.matchMedia('(min-width: 40rem)').addEventListener('change', (e) => { if (e.matches) setze(false); });
+  }
+
   // Jahreszahl im Footer immer aktuell (ohne JavaScript steht der eingetragene Wert)
   document.querySelectorAll('[data-jahr]').forEach((n) => { n.textContent = new Date().getFullYear(); });
 
