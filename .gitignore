@@ -1,0 +1,9 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Videoquellen gehören zu Bunny, nicht ins Repository
+originals/
+*.mov
+*.mxf
+*.mkv

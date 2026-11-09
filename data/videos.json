@@ -1,0 +1,177 @@
+{
+  "settings": {
+    "bunnyLibraryId": "HIER_BUNNY_LIBRARY_ID_EINTRAGEN"
+  },
+  "categories": [
+    "Gespräche und Porträts",
+    "Reportagen",
+    "Politik und Gesellschaft"
+  ],
+  "videos": [
+    {
+      "id": "trailer",
+      "title": "Trailer",
+      "featured": true,
+      "category": "",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Opulente Bilder, analytische Schärfe, gute Erzählungen, die Welt im Blick.",
+      "poster": "https://static.wixstatic.com/media/cf3013_33adf1be0b4f466a8af10aefe9cf7b13f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "03:07"
+    },
+    {
+      "id": "precht-was-heisst-es-mensch-zu-sein",
+      "title": "Richard David Precht – Was heißt es, Mensch zu sein?",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Wir brauchen ein neues „Wohin“ und „Wozu“, sagt Philosoph Richard David Precht. Wir reden über „Künstliche Intelligenz und den Sinn des Lebens“, sein neuestes Buch. Technischer Fortschritt brauche eine „Sinn-Dimension“, sagt er. Menschen seien keine defizitären Rechner. Auch wenn Trans- und Posthumanisten, die Tech-Gurus des Silicon Valley, die Menschheit lediglich als evolutionäre Vorstufe zu einer kommenden KI-Spezies sehen. Menschliche Intelligenz sei hyperintelligenten Maschinen um Welten überlegen – um die faszinierende Komplexität des Menschseins eben. Aber welche Grenzen müssen wir ziehen gegenüber ungebremstem technischen Fortschritt und gnadenloser Zerstörung unserer natürlichen Lebensgrundlagen? Wenn wir wollen, dass die Zukunft human wird?",
+      "poster": "https://static.wixstatic.com/media/cf3013_ecbe3cded6ec42a78e80df6434403c47f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "07:40",
+      "meta": "ARD, „ttt“, 21.06.2020"
+    },
+    {
+      "id": "singapur-unsere-asiatische-zukunft",
+      "title": "Singapur – „Unsere asiatische Zukunft“",
+      "category": "Reportagen",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Die Machtverhältnisse auf der Welt verschieben sich. War das 19. Jahrhundert europäisch, das 20. amerikanisch – das 21. wird asiatisch sein. „Asien ist das Modell von Morgen, der Westen ist von Gestern“, das sagt Parag Khanna, maximal verkürzt. Der amerikanische Politikwissenschaftler mit indischen Wurzeln, international renommierter Geostratege und Demokratie-Fan, lebt gerade in Singapur, der „Modell-Hauptstadt Asiens“, wie er findet. Dieser wirtschaftlichen Megaregion, die von Australien bis Russland und von Indien bis Japan reicht. „Allein in China leben mehr junge Leute, als Europa Menschen hat“, sagt Khanna und spricht von der wahnsinnigen Aufbruchstimmung unter der asiatischen Jugend: Reichtum, Modernität, fortgeschrittenste Technologie und kulturelles Selbstbewusstsein zeichne sie aus. Wobei das autoritäre China ein Sonderfall sei – die meisten der 35 asiatischen Staaten seien Demokratien, so Khanna. Und: „Sie betrachten die Rückkehr an das Ruder der Geschichte als ihr natürliches Schicksal.“",
+      "poster": "https://static.wixstatic.com/media/e6b9de_9a12ed9716d845ddbc2526c01cfbe9ef~mv2.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:47",
+      "meta": "ARD, „ttt“, 26.01.2020"
+    },
+    {
+      "id": "rechtsradikaler-terror",
+      "title": "Rechtsradikaler Terror und seine geistigen Brandstifter",
+      "category": "Politik und Gesellschaft",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Es ist mehr als wir aushalten, mehr als in unser Selbstbild und die Selbsterklärung unserer Demokratie passt. 10 Menschen werden in Hanau ermordet, weil sie in das Hassbild eines Rechtsextremisten passen. Rechtsradikaler Terror zieht durch das Land. Innerhalb weniger Monate werden 13 Menschen ermordet – Walter Lübke, Halle, Hanau.\nAngestiftet von der Verbalgewalt und den völlig verrückten Weltbildern der AfD und der Identitären Rechten. Von „Bevölkerungsaustausch“ und „Umvolkung“ schwadronieren sie, einer „Verschwörung der Bundesregierung gegen das Deutsche Volk“. Wahnsinn mit verheerender Wirkung.",
+      "poster": "https://static.wixstatic.com/media/cf3013_3dc6ccb15f5b407cbe4337621aace29cf002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "07:45",
+      "meta": "ARD, „ttt“, 23.02.2020"
+    },
+    {
+      "id": "shenzhen-zukunft-china",
+      "title": "Shenzhen – Zukunft? China?",
+      "category": "Reportagen",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Shenzhen – gleich nördlich neben Hongkong – wächst schneller als alle anderen Städte der Welt. Es ist das Silicon Valley Chinas. Reich und riesig. Kein Moloch, eher ein Magnet. Ein Juwel der chinesischen Kapitalismus-Variante – voller Parks und Blumenrabatten – in der die avansierteste Technologie der Welt entwickelt wird. China, die Werkbank der Welt, die den Globus mit minderwertigen Massenprodukten versorgt, Klauen und Kopieren als tragendes Wirtschaftskonzept, das war gestern. China entwickelt sich zur Innovations-Weltmacht. „Wenn man verstehen will, wie die Welt von morgen aussieht, muss man hierher kommen“, sagt Frank Sieren, der seit vielen Jahren als Korrespondent in Beijing lebt und als China-Versteher gilt. Mit ihm besuchen wir das Allerheiligste der chinesischen High-Tech-Welt, die Konzernzentrale von Huawei, einige Startups und Tech-Gurus, die wegen der besseren Lebens- und Arbeitsbedingungen aus Kalifornien nach China gezogen sind. 16.000 Elektrobusse fahren in Shenzhen, 21.000 Elektrotaxis. Vielleicht sollten wir China tatsächlich besser verstehen.",
+      "poster": "https://static.wixstatic.com/media/cf3013_8ed2851c016b42fd935b1f6b200e4ed4f000.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "07:45",
+      "meta": "ARD, „ttt“, 20.01.2019"
+    },
+    {
+      "id": "hongkong-untergehende-insel",
+      "title": "Hongkong – eine untergehende Insel der Demokratie?",
+      "category": "Reportagen",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Hongkong, das ist immer noch großes Geld, Tycoon-City, die dichteste Stadt der Welt, die meisten Milliardäre, stratosphärische Wohnungspreise, die höchste Lebenserwartung und die größte Protestbewegung der Welt seit Jahrzehnten. Eine hochentwickelte Zivilgesellschaft geht seit über einem Jahr auf die Straße um die demokratischen Rechte zu retten, die China für 50 Jahre versprochen hatte. „Ein Land – zwei Systeme“. Der Protest ist nachhaltig, von der Mehrheit der Hongkonger getragen, aber in Teilen auch unerbittlich und gewalttätig. Wir sind mittendrin, mit einigen Vertreter*innen des Protestes in Hongkong unterwegs.",
+      "poster": "https://static.wixstatic.com/media/cf3013_b318fb3cb3fd44da996c9ae8d1c5ef03f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:19",
+      "meta": "ARD, „ttt“, 15.09.2019"
+    },
+    {
+      "id": "maja-goepel-die-welt-neu-denken",
+      "title": "Maja Göpel – Die Welt neu denken",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Unser Planet lebt auch ohne Menschen weiter. Wenn wir unsere Lebensgrundlagen nicht unwiederbringlich zerstören wollen, müssten wir unsere auf permanentes Wachstum ausgerichtete Wirtschaft umbauen, den Verbrauch natürlicher Ressourcen stoppen, die planetaren Grenzen erkennen. Schon heute bräuchten die Menschen 5 Erden, wenn sie so weiter wirtschaften wie bisher. Maja Göpel ist Expertin für Nachhaltigkeitsforschung und Transformationspolitik. Sie plädiert für einen radikalen Wandel. Soziale Gerechtigkeit, fairer Wettbewerb und der Schutz unserer natürlichen Lebensgrundlagen gehören für sie zusammen. Sie fordert eine neue sozialökologische Ordnungspolitik: Verbote könnten uns befreien, sagt sie.",
+      "poster": "https://static.wixstatic.com/media/cf3013_9da31dc038c1481fab7f9a944f740aecf001.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "06:17",
+      "meta": "ARD, „ttt“, 26.04.2020, mit Daniel Böhm"
+    },
+    {
+      "id": "mit-rechten-reden",
+      "title": "Demokratisch gewählt – aber Feinde der Demokratie. Mit Rechten reden? Eine Argumentationsbefähigung",
+      "category": "Politik und Gesellschaft",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "„…der gehört sofort erschossen!!!!“ Gemeint war der Kasseler Regierungspräsident Walter Lübke. 4 Jahre lang ließ die AfD Kommentare wie diesen auf ihrer Facebook-Seite stehen. Erst nach der Tat wurden sie gelöscht. Nur ein Versehen? Oder doch Programm? Wie soll die Demokratie mit denen umgehen, die sie von Innen bekämpfen? Gelassener Dialog? Einfach so behandeln wie jede andere Partei? Schließlich haben demokratische Wahlen sie in die Parlamente gebracht. Eine Argumentationsbefähigung.",
+      "poster": "https://static.wixstatic.com/media/cf3013_527e870deb364c9b9ea1896d198cc8c7~mv2.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "09:31",
+      "meta": "ARD, „ttt“, 14.07.2019, mit David Gern"
+    },
+    {
+      "id": "robert-habeck-wer-wir-sein-koennten",
+      "title": "Robert Habeck – Wer wir sein könnten",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Rechte Sprachbilder bleiben nicht bloße Provokationen. Sie zielen darauf ab, das Menschenbild zu verändern, moralische Grundsätze zu brechen, das Mitgefühl und die Empathie abzutöten. Verrohte Sprache schafft Wirklichkeit. Robert Habeck warnte schon vor 2 Jahren in seinem Buch, „Wer wir sein könnten“, vor der tödlichen Verbindung, die die Weltbilder der Rechten im Parlament mit rechtsradikalen Gewalttätern auf der Straße eingehen. Aus Worten wurden grausame antisemitische und rassistisch motivierte Taten. Damals prophezeite Robert Habeck im bayerischen Landtagswahlkampf Markus Söder sein bevorstehendes „politisches Nahtod-Erlebnis“ (Söder) – die CSU verlor massiv, weil sie die menschenverachtende Sprache der AfD kopiert hatte. Robert Habeck praktiziert, meistens, was seither auch der bayerische Ministerpräsident versucht: beim Sprechen nachdenken und um Kompromisse ringen.",
+      "poster": "https://static.wixstatic.com/media/cf3013_70c6c695275a4e69890640dfbe1b6bc7f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "05:01",
+      "meta": "ARD, „ttt“, 14.10.2018"
+    },
+    {
+      "id": "navid-kermani-die-macht-des-wortes",
+      "title": "Navid Kermani – Die Macht des Wortes",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Navid Kermani – das Wunschbild des Öffentlichen Intellektuellen hält er für gestrig. Einer, der weiß, wo’s langgeht? Ist ihm Suspekt. Aber moralische Instanz? Das ist er definitiv. Wir sprechen über seine bewegenden Reden, die den Kölner mit iranischen Wurzeln in Deutschland berühmt gemacht haben. (Veröffentlicht in „Morgen ist da“, seinem neuesten Buch.) 2014 hielt er im Bundestag die Festrede zu „65 Jahre Grundgesetz“.\n„Und doch beginnt ausgerechnet der erste Satz des Grundgesetzes der Bundesrepublik Deutschland mit einem Paradox.“ sagte er dort. „Denn wäre die Würde des Menschen unantastbar, wie es im ersten Satz heißt, müsste der Staat sie gar nicht achten und schon gar nicht schützen, wie es der zweite Satz verlangt. Die Würde ist unantastbar und bedarf dennoch des Schutzes.“ Beide Sätze können nicht gleichzeitig wahr sein, sage Kermani. Aber sie können sich gemeinsam, und nur gemeinsam, bewahrheiten. Das Grundgesetz habe Wirklichkeit geschaffen durch die Kraft des Wortes.",
+      "poster": "https://static.wixstatic.com/media/cf3013_58045336f5d6472f8cf2e4e17a7147c7f000.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:50",
+      "meta": "ARD, „ttt“, 15.12.2019"
+    },
+    {
+      "id": "bodenlos-immobilienpreise",
+      "title": "Bodenlos – Immobilienpreise und leistungslose Gewinne",
+      "category": "Politik und Gesellschaft",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Wohnungen in Städten werden unbezahlbar. Für fast alle, auch das Bürgertum. Zeit für einen revolutionären Gedanken.\nWir brauchen ein neues Bodenrecht, das klar stellt: Der Boden gehört allen. Boden ist Gemeingut. Wie Wasser und Luft kann der Boden nicht Privateigentum sein. Sagt Christiane Thalgott, ehem. Münchner Stadtbaurätin, zusammen mit Stararchitekt David Chipperfield und Reinier de Graaf, dem Partner von Rem Koolhaas. Spekulation, gigantische leistungslose Gewinne auf den Konten Weniger, Häuser, die gebaut werden für die Rendite, gar nicht zum Wohnen, wie lange wollen wir das aus- und erhalten?",
+      "poster": "https://static.wixstatic.com/media/cf3013_59ac8b183c8d43d181835f2efd2b92bcf002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:06",
+      "meta": "ARD, „ttt“, 06.05.2018, zus. mit Alex Stenzel"
+    },
+    {
+      "id": "namibia-wir-herrenmenschen",
+      "title": "Namibia – Wir Herrenmenschen. Wieviel Rassismus ist in uns allen?",
+      "category": "Reportagen",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Es war nur eine kurze Episode in der deutschen Geschichte, die aber um so nachhaltiger unsere aktuelle Weltsicht, unsere Vorstellung von Afrika und den Afrikanern geprägt hat. Die Kolonialzeit. Kürzer und unbedeutender als zum Beispiel die britische, aber ebenso nachhaltig. Das vielleicht grausamst Kapitel spielte in Namibia – bis vor 100 Jahren eine deutsche Kolonie. Wir besuchen das heute demokratische Land zusammen mit Bartholomäus Grill, 3 Jahrzehnte Afrika-Korrespondent für Spiegel und Zeit. „Wir brauchen eine neue Debatte über den Kolonialismus“, sagt er. „Und wir müssen uns alle selber fragen, welche Rückstände des kolonialen Blicks in uns selber sind. Wie viel Rassismus ist in uns allen?“",
+      "poster": "https://static.wixstatic.com/media/cf3013_dfa8252ca2f146f8810c7945eaf6509a~mv2.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:53",
+      "meta": "ARD, „ttt“, 16.06.2019"
+    },
+    {
+      "id": "islam-islamismus-alice-algerien",
+      "title": "Islam. Islamismus. Alice. Algerien.",
+      "category": "Reportagen",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Alice Schwarzer hat eine algerische Familie. Enge Freundinnen und Freunde. Tiefe Verbundenheit. Große Liebe. Weitreichende Kenntnis der muslimischen Welt. Wir fahren mit ihr hin. Und alles ist anders. Anders als man denkt.\nIhr Buch, „Meine algerische Familie“, erzählt von Verschleierung, die hier früher mal von gestern war, von High-Heels und Krieg gegen den islamistischen Terror, von spätsozialistischer Lethargie, Hochzeiten, schönen Kleidern, tödlichem Fundamentalismus, nachdenklichen Männern und heißen Diskussionen. Alice Schwarzer begleitet die weltweite Offensive des politisierten Islam seit 30 Jahren mit ihrer fundierten Kritik.",
+      "poster": "https://static.wixstatic.com/media/cf3013_53337e6060af4d0081348875de20b7caf002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:32",
+      "meta": "ARD, „ttt“, 04.03.2018"
+    },
+    {
+      "id": "yanis-varoufakis-1",
+      "title": "Yanis Varoufakis 1",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Ex-Finanzminister Griechenlands. Er erschütterte 2015 die EU, als er verhindern wollte, dass Griechenland, damals das bankrotteste Land Europas, den bis dahin größten Kredit der Menschheitsgeschichte gekommen sollte. Er hatte viele Unterstützer, konservative britische Ökonomen, die Obama-Administration, manchmal Christine Lagarde (damals IWF-Chefin). Aber auch mächtige Feinde. Unter ihnen Wolfgang Schäuble und Angela Merkel. Geblieben ist das Image eines Rock’n Rollers und Wirtschaftsmathematikers, der sich auf der politischen Bühne verzockt hat. Darüber hat er ein Buch geschrieben. Eine bewegende Reportage aus dem Innersten der EU. Über Hoffnungen, Intrigen und Verrat.",
+      "poster": "https://static.wixstatic.com/media/cf3013_3cf3e46fa220444d9997fee0d3f75d85f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "06:57",
+      "meta": "ARD, „ttt“, 28.02.2016"
+    },
+    {
+      "id": "yanis-varoufakis-2",
+      "title": "Yanis Varoufakis 2",
+      "category": "Gespräche und Porträts",
+      "provider": "mp4",
+      "videoId": "https://video.wixstatic.com/video/e6b9de_59bb1e1e06a84b3ba4e4602ae443a933/1080p/mp4/file.mp4",
+      "description": "Ex-Finanzminister Griechenlands. Er erschütterte 2015 die EU, als er verhindern wollte, dass Griechenland, damals das bankrotteste Land Europas, den bis dahin größten Kredit der Menschheitsgeschichte gekommen sollte. Er hatte viele Unterstützer, konservative britische Ökonomen, die Obama-Administration, manchmal Christine Lagarde (damals IWF-Chefin). Aber auch mächtige Feinde. Unter ihnen Wolfgang Schäuble und Angela Merkel. Geblieben ist das Image eines Rock’n Rollers und Wirtschaftsmathematikers, der sich auf der politischen Bühne verzockt hat. Darüber hat er ein Buch geschrieben. Eine bewegende Reportage aus dem Innersten der EU. Über Hoffnungen, Intrigen und Verrat.",
+      "poster": "https://static.wixstatic.com/media/cf3013_e74cf1c0cd3b431388c2b069f2361074f002.jpg/v1/fill/w_960,h_540,al_c,q_80/poster.jpg",
+      "duration": "08:52",
+      "meta": "ARD, „ttt“, 12.11.2017"
+    }
+  ]
+}
